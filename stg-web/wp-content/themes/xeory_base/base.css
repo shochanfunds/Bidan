@@ -1,0 +1,304 @@
+.yarpp-thumbnails-horizontal .yarpp-thumbnail, .yarpp-thumbnail-default, .yarpp-thumbnail-title {
+	display: inline-block;
+	*display: inline;
+}
+.yarpp-thumbnails-horizontal .yarpp-thumbnail {
+	border: 1px solid rgba(127,127,127,0.1);
+	width: 130px;
+	height: 205px;
+	margin: 5px;
+	margin-left: 0px;
+	vertical-align: top;
+}
+.yarpp-thumbnail > img, .yarpp-thumbnail-default {
+	width: 120px;
+	height: 120px;
+	margin: 5px;
+}
+.yarpp-thumbnails-horizontal .yarpp-thumbnail > img, .yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
+	display: block;
+}
+.yarpp-thumbnails-horizontal .yarpp-thumbnail-title {
+	font-size: 1em;
+	max-height: 2.8em;
+	font-weight:bold;
+	line-height: 1.4em;
+	margin: 7px;
+	margin-top: 0px;
+	width: 120px;
+	text-decoration: inherit;
+	overflow: visible;
+}
+
+.yarpp-thumbnail-default {
+	overflow: hidden;
+}
+.yarpp-thumbnail-default > img {
+	min-height: 120px;
+	min-width: 120px;
+}
+
+.col-md-8{
+	padding-right:0px;
+}
+
+.col-sm-8{
+	padding-right:0px;
+}
+
+.col-xs-12{
+	padding-right:0px;
+}
+
+body{
+
+}
+
+
+h2{
+	border-bottom:2px solid #0C2543;
+}
+
+
+h2 > span{
+  font-size:25px;
+	font-weight:bold;
+	color:#0C2543;
+}
+
+h3 > span{
+	font-size:20px;
+	color:#333333;
+}
+
+p{
+
+}
+
+.addtoany_share_save_container{
+	display:none;
+}
+
+.article-list > ul > li > p{
+	font-size:1.5em;
+	margin-bottom:25px;
+	line-height:30px;
+}
+
+#toc_container{
+	background-color:#FFFFFF;
+	border:1px solid #FFFFFF;
+	width:100%;
+}
+
+ul{
+	list-style-type: square;
+}
+
+.toc_list > li{
+}
+
+.toc_list > li > ul > li >a{
+	text-decoration:none;
+	font-size:1.3em;
+}
+
+.toc_list > li > a{
+	display:block;
+	font-size:17px;
+}
+
+
+
+div#toc_container a{
+	color:#666666;
+}
+
+.nav-element{
+}
+
+
+
+.post_title > h1{
+	font-size:28px;
+	color:#0C2543;
+}
+
+.description_text{
+	float:right;
+}
+
+
+
+.description_text > p{
+	color:#333333;
+}
+
+.list-inline{
+	float:right;
+}
+
+
+.embed-youtube > iframe{
+	width:100%;
+}
+
+.yarpp-related > h3 {
+
+}
+
+.yarpp-related{
+
+}
+
+ul, ol, dl, p, details, address, .vcard, figure, pre, fieldset, table, dt, dd, hr {
+    margin-bottom: 5px;!important
+}
+
+body#tinymce {
+    margin-left: 10px;
+}
+h1 {
+ font-size:24px;
+}
+
+h2 {
+    padding: .5em .75em;
+    border-bottom: 4px solid #112b49;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-size: 21px;
+    clear: both;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 0;
+    color: #333333;
+}
+
+h3 {
+    position: relative;
+    padding-left: 24px;
+    line-height; 41px;
+}
+
+h3:before {
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    width: 14px;
+    height: 14px;
+    background: #112b49;
+    content: "";
+}
+
+
+
+blockquote{
+background-color:#eee;
+padding:1em 1em 1em 3em;
+position:relative;
+}
+blockquote:before{
+content:"“";
+font-size:600%;
+line-height:1em;
+color:#999;
+font-family:"ＭＳ Ｐゴシック",sans-serif;
+position:absolute;
+left:-10px;
+top:0;
+}
+
+.button {
+	display: inline-block;
+	height: 54px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 54px;
+	padding:0px 12px;
+	border-radius:5px;
+	outline: none;
+}
+.button::before,
+.button::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.button,
+.button::before,
+.button::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.button {
+	background-color: #E83820;
+	border: 2px solid #E83820;
+	color: #fff;
+	line-height: 50px;
+}
+.button:hover {
+	background-color: #fff;
+	border-color: #E83820;
+	color: #E83820;
+}
+
+
+.sharedaddy{
+	display:none;
+}
+
+/*TinyMice カスタム*/
+
+div#mceu_53-t1 {
+    display: none;
+}
+
+#scroll-menu > a{
+	line-height:10px;
+}
+
+.article-adsense{
+
+}
+
+.sns-button{
+	margin-left:-20px;
+}
+
+.article-block > ul > li > h4::before{
+	content:"●";
+	width:5px;
+	color:#0C2543;
+}
+
+.toTopButton{
+	display:none;
+	position:fixed;
+	bottom:10px;
+	right:20px;
+	text-align:right;
+}
+
+.toTopButton > img {
+	width:80px;
+}
+
+.single-pagination{
+	display:block;
+	text-align:center;
+	border:1px solid #0C2543;
+	padding:6px 8px;
+	margin:5px;
+}
+
+.page-links > a > span{
+	display:block;
+	background-color:#0C2543;
+	color:#D4B22D;
+}
